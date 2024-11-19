@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+      }
+
+      #gameCanvas {
+        box-shadow: 10px 10px 20px gray;
+      }
+
+      h1 {
+        text-align: center;
+        font-family: comic sans MS;
+        color: coral;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 100vh;
+        background-image: url(./图片/游戏图片/22\ 拷贝2.gif);
+        background-repeat: no-repeat;
+
+        width: 580px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Pac-Man</h1>
+      <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="src/game1.js" type="module">
+      
+    </script>
+  </body>
+</html>
